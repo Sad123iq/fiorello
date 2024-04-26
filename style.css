@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbarSadiq{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container-fluid{
+    width: 500px;
+    padding-left: 40px;
+    margin-left: 360px;
+}
+
+.fiorelloLogo{
+    height: 24px;
+}
+
+.navbar-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.cartLink{
+    color: black;
+}
+
+.carouselExample{
+    position: relative;
+}
+.sectionOneleftdiv{
+    position: absolute;
+    left: 0px;
+    top: 0;
+    background-color: #F3F3F3;
+    height: 100%;
+}
+.sectionTwoUl{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+}
+.sectionTwoUl li a{
+    text-decoration: none;
+    color: red;
+}
+
+.section-five{
+    background-image: url("https://fiorello.qodeinteractive.com/wp-content/uploads/2018/05/h3-background-img.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.section-five h3{
+    color: white;
+}
+.inputPlace{
+    border: 1px solid black;
+    background-color: white;
+}
+.inputPlace input{
+    border: none;
+    outline: none;
+    padding: 10px;
+}
+.inputPlace button{
+    border: none;
+    padding: 10px;
+    background-color: red;
+    color: white;
+}
+.footerTop{
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    gap: 50px;
+    padding: 40px;
+}
+.footerTop ul li{
+    list-style: none;
+}
